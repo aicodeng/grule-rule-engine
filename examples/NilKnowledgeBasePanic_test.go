@@ -17,9 +17,8 @@ package examples
 import (
 	"testing"
 
-	"github.com/hyperjumptech/grule-rule-engine/ast"
-	"github.com/hyperjumptech/grule-rule-engine/engine"
-
+	"github.com/aicodeng/grule-rule-engine/ast"
+	"github.com/aicodeng/grule-rule-engine/engine"
 	"github.com/stretchr/testify/assert"
 )
 

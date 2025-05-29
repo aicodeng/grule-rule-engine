@@ -14,7 +14,7 @@ __"Gopher Trzyma Się Zasad"__
 # Grule
 
 ```go
-import "github.com/hyperjumptech/grule-rule-engine"
+import "github.com/aicodeng/grule-rule-engine"
 ```
 
 ## Silnik reguł dla Go

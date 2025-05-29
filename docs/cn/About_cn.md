@@ -16,7 +16,7 @@ __"Gopher 遵守规则"__
 # Grule
 
 ```go
-import "github.com/hyperjumptech/grule-rule-engine"
+import "github.com/aicodeng/grule-rule-engine"
 ```
 
 ## Go 规则引擎

@@ -24,10 +24,10 @@ From your `go` you can import Grule.
 
 ```go
 import (
-	"github.com/hyperjumptech/grule-rule-engine/ast"
-	"github.com/hyperjumptech/grule-rule-engine/builder"
-	"github.com/hyperjumptech/grule-rule-engine/engine"
-	"github.com/hyperjumptech/grule-rule-engine/pkg"
+    "github.com/aicodeng/grule-rule-engine/ast"
+    "github.com/aicodeng/grule-rule-engine/builder"
+    "github.com/aicodeng/grule-rule-engine/engine"
+    "github.com/aicodeng/grule-rule-engine/pkg"
 ) 
 ``` 
 

@@ -16,16 +16,16 @@ package antlr
 
 import (
 	"fmt"
-	"github.com/sirupsen/logrus"
-	"go.uber.org/zap"
 	"strconv"
 	"strings"
 
+	"github.com/aicodeng/grule-rule-engine/antlr/parser/grulev3"
+	"github.com/aicodeng/grule-rule-engine/ast"
+	"github.com/aicodeng/grule-rule-engine/logger"
+	"github.com/aicodeng/grule-rule-engine/pkg"
 	"github.com/antlr/antlr4/runtime/Go/antlr"
-	"github.com/hyperjumptech/grule-rule-engine/antlr/parser/grulev3"
-	"github.com/hyperjumptech/grule-rule-engine/ast"
-	"github.com/hyperjumptech/grule-rule-engine/logger"
-	"github.com/hyperjumptech/grule-rule-engine/pkg"
+	"github.com/sirupsen/logrus"
+	"go.uber.org/zap"
 )
 
 var (

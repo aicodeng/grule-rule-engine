@@ -24,7 +24,7 @@ __THIS PAGE IS BEING TRANSLATED__
 # Grule
 
 ```go
-import "github.com/hyperjumptech/grule-rule-engine"
+import "github.com/aicodeng/grule-rule-engine"
 ```
 
 ## Rule Engine for Go

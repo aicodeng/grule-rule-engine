@@ -17,13 +17,13 @@ package ast
 import (
 	"bytes"
 	"fmt"
-	"github.com/google/uuid"
 	"io"
 	"sort"
 	"strings"
 	"sync"
 
-	"github.com/hyperjumptech/grule-rule-engine/pkg"
+	"github.com/aicodeng/grule-rule-engine/pkg"
+	"github.com/google/uuid"
 )
 
 // NewKnowledgeLibrary create a new instance KnowledgeLibrary

@@ -10,7 +10,7 @@ __"Gopher Holds The Rules"__
 # Grule-Rule-Engine
 
 ```go
-import "github.com/hyperjumptech/grule-rule-engine"
+import "github.com/aicodeng/grule-rule-engine"
 ```
 
 ## Rule Engine for Go

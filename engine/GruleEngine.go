@@ -17,13 +17,13 @@ package engine
 import (
 	"context"
 	"fmt"
-	"github.com/sirupsen/logrus"
-	"go.uber.org/zap"
 	"sort"
 	"time"
 
-	"github.com/hyperjumptech/grule-rule-engine/ast"
-	"github.com/hyperjumptech/grule-rule-engine/logger"
+	"github.com/aicodeng/grule-rule-engine/ast"
+	"github.com/aicodeng/grule-rule-engine/logger"
+	"github.com/sirupsen/logrus"
+	"go.uber.org/zap"
 )
 
 const (

@@ -23,11 +23,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/go-git/go-billy/v5"
-
-	"github.com/hyperjumptech/grule-rule-engine/logger"
-
+	"github.com/aicodeng/grule-rule-engine/logger"
 	"github.com/bmatcuk/doublestar"
+	"github.com/go-git/go-billy/v5"
 )
 
 var (
