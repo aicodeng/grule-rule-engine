@@ -20,9 +20,9 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/hyperjumptech/grule-rule-engine/ast/unique"
+	"github.com/aicodeng/grule-rule-engine/ast/unique"
 
-	"github.com/hyperjumptech/grule-rule-engine/pkg"
+	"github.com/aicodeng/grule-rule-engine/pkg"
 )
 
 // NewRuleEntry create new instance of RuleEntry

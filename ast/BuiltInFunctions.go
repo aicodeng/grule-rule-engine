@@ -21,8 +21,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hyperjumptech/grule-rule-engine/logger"
-	"github.com/hyperjumptech/grule-rule-engine/pkg"
+	"github.com/aicodeng/grule-rule-engine/logger"
+	"github.com/aicodeng/grule-rule-engine/pkg"
 )
 
 var (

@@ -22,11 +22,11 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/aicodeng/grule-rule-engine/antlr/parser/grulev3"
+	"github.com/aicodeng/grule-rule-engine/ast"
+	"github.com/aicodeng/grule-rule-engine/logger"
+	"github.com/aicodeng/grule-rule-engine/pkg"
 	"github.com/antlr4-go/antlr/v4"
-	"github.com/hyperjumptech/grule-rule-engine/antlr/parser/grulev3"
-	"github.com/hyperjumptech/grule-rule-engine/ast"
-	"github.com/hyperjumptech/grule-rule-engine/logger"
-	"github.com/hyperjumptech/grule-rule-engine/pkg"
 )
 
 var (

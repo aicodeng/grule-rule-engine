@@ -17,12 +17,12 @@ package ast
 import (
 	"errors"
 	"fmt"
-	"github.com/hyperjumptech/grule-rule-engine/ast/unique"
-	"github.com/hyperjumptech/grule-rule-engine/model"
+	"github.com/aicodeng/grule-rule-engine/ast/unique"
+	"github.com/aicodeng/grule-rule-engine/model"
 	"reflect"
 	"strings"
 
-	"github.com/hyperjumptech/grule-rule-engine/pkg"
+	"github.com/aicodeng/grule-rule-engine/pkg"
 )
 
 // NewExpressionAtom create new instance of ExpressionAtom

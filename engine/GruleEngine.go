@@ -23,8 +23,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/hyperjumptech/grule-rule-engine/ast"
-	"github.com/hyperjumptech/grule-rule-engine/logger"
+	"github.com/aicodeng/grule-rule-engine/ast"
+	"github.com/aicodeng/grule-rule-engine/logger"
 )
 
 const (

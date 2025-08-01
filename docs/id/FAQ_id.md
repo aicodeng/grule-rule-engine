@@ -222,7 +222,7 @@ melunakkan kompleksitas bisnis itu sendiri.
 
 ```go
 import (
-    "github.com/hyperjumptech/grule-rule-engine/logger"
+    "github.com/aicodeng/grule-rule-engine/logger"
     "github.com/sirupsen/logrus"
 )
 ...
