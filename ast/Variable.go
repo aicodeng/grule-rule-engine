@@ -17,9 +17,10 @@ package ast
 import (
 	"bytes"
 	"fmt"
+	"reflect"
+
 	"github.com/aicodeng/grule-rule-engine/ast/unique"
 	"github.com/aicodeng/grule-rule-engine/model"
-	"reflect"
 
 	"github.com/aicodeng/grule-rule-engine/pkg"
 )
@@ -207,7 +208,10 @@ func (e *Variable) Assign(newVal reflect.Value, dataContext IDataContext, memory
 		if e.Variable.ValueNode.IsMap() {
 			err := e.Variable.ValueNode.SetMapValueAt(e.ArrayMapSelector.Value, newVal)
 			if err == nil {
+				// At this point, the key of e is a specific value, for example: Result.RuntimeData["raise_model_labels"]
 				memory.ResetVariable(e)
+				// In practice, the entire map variable (e.g., Result.RuntimeData) needs to be reset here, otherwise expressions related to this map will not be updated
+				memory.ResetVariable(e.Variable)
 			}
 
 			return err
